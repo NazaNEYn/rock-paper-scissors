@@ -17,7 +17,7 @@ ascii_art = [ascii.rcok, ascii.paper, ascii.scissors]
 # It also implicitly determines if the user provided a valid input.
 if user_choice == "rock":
     print(ascii_art[0], items[0])  # Prints ASCII art for rock and the string "rock"
-elif user_choice == "aper":  # !! IMPORTANT: This is a typo. Should be "paper" !!
+elif user_choice == "paper":  # !! IMPORTANT: This is a typo. Should be "paper" !!
     print(ascii_art[1], items[1])  # Prints ASCII art for paper and the string "paper"
 elif user_choice == "scissors":
     print(
